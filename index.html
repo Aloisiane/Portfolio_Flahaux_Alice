@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="#" class="logo">
+            <img src="LogoAlice2.png" alt="Logo">
+        </a>
+
+        <nav class="menu">
+            <a href="#accueil">
+                <img src="homeOrangeS.png" alt="ホーム">
+            </a>
+
+            <a href="#bio">
+                <img src="profileOrange.png" alt="プロフィール">
+            </a>
+
+            <a href="#works">
+                <img src="sakuhinOrange.png" alt="作品">
+            </a>
+
+            <details class="contact-menu">
+                <summary>
+                    <img src="contactOrange.png" alt="お問い合わせ">
+                </summary>
+
+                <div class="contact-info">
+                    <p>TEL : 070-1324-1692</p>
+                    <p>Email : flahauxalice@outlook.fr</p>
+                </div>
+            </details>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero theme1">
+        <h1>
+            <img src="flecheRapideR4.gif" alt="ポートフォリオ">
+        </h1>
+    </section>
+
+    <section id="bio" class="profile-section theme2-bio">
+        <div class="clouds" aria-hidden="true">
+            <img class="cloud c1" src="nuage.svg" alt="">
+            <img class="cloud c2" src="nuage2.svg" alt="">
+            <img class="cloud c3" src="nuage3.svg" alt="">
+        </div>
+
+        <div class="bio">
+            <h2>プロフィール</h2>
+
+            <p>
+        はじめまして。アリスと申します。ベルギー出身で、母国語はフランス語です。英語でのコミュニケーションも可能です。
+                
+        2024年7月にJLPT N2を取得しました。
+
+        現在はHAL名古屋 情報処理学科（2年制）の2年生として学んでいます。
+
+        学校ではJava、Linux、データベース、JavaScript、Android Studio、HTML/CSS、ネットワークなど幅広い分野を学習しています。
+
+        私は新しい技術を学ぶことが好きで、課題制作では「最後まで完成させること」を大切にしています。プログラムを作成し、試行錯誤を繰り返しながら少しずつ完成させていく過程に楽しさとやりがいを感じています。
+
+        また、学校の課題では、読みやすいコードを書くことを意識し、周囲と協力しながら制作に取り組んでいます。
+
+        <br><br>
+
+        ※ポートフォリオ内で使用しているイラストやアニメーションは生成AIを使用せず、Adobe Illustrator・Adobe Photoshopのみで制作しています。
+            </p>
+
+            <br>
+            <br>
+            <br>
+            <h3>なぜサン電子株式会社で働きたいのか</h3>
+
+            <br>
+            <br>
+            <p>
+                私は幼い頃からゲームが好きで、現在でもゲームは私の大きな趣味の一つです。<br>
+
+                その中でも、長い歴史を持ち、現在も新しいゲーム開発に挑戦し続けているSUNSOFTに強く惹かれました。<br>
+
+                貴社の採用ページを拝見し、長年にわたりゲーム開発を続けながら、近年も新作タイトルやリメイク作品など新しい挑戦を続けている姿勢に魅力を感じました。<br>
+
+                現在はJavaをはじめ、Linuxやデータベース、JavaScriptなどを通してプログラミングの基礎を学んでいます。今後もゲーム開発に必要な知識や技術を積極的に学び続け、一人のゲームプログラマとして成長していきたいと考えています。<br>
+
+                また、企画から実装まで幅広く携われる開発環境や、社歴に関係なくアイデアを提案できる環境にも魅力を感じています。<br>
+
+                まだ学ぶべきことは多くありますが、新しい技術にも積極的に挑戦し、粘り強く学び続けられることが私の強みです。<br>
+
+                まだゲーム開発の経験は多くありませんが、一つひとつの技術を着実に身につけながら、実践力を高めていきたいと考えています。<br>
+
+                将来的にはゲームプログラマとして、ユーザーに長く楽しんでもらえるゲームづくりに携わりたいと考えています。<br>
+
+                そのような環境で経験を積みながら、技術力だけでなくチームでの開発力も高め、貴社のゲーム開発に貢献できるプログラマを目指しています。<br>
+
+                学校で制作した課題作品を掲載しておりますので、ぜひご覧いただければ幸いです。
+            </p>
+        </div>
+    </section>
+
+    <section id="works" class="carousel-section theme2-carousel">
+        <div class="clouds" aria-hidden="true">
+            <img class="cloud c1" src="nuage.svg" alt="">
+            <img class="cloud c2" src="nuage2.svg" alt="">
+            <img class="cloud c3" src="nuage3.svg" alt="">
+        </div>
+
+        <div class="carousel-content">
+            <div class="carousel-container">
+                <a class="card"></a>
+                <a class="card"></a>
+                <a class="card"></a>
+                <a class="card"></a>
+            </div>
+
+            <div class="active-description">
+                <h2 id="active-title"></h2>
+                <p id="active-text"></p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev">◄</button>
+            <button id="next">►</button>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Alice Flahaux - Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
